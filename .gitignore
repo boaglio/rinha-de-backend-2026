@@ -1,7 +1,10 @@
 .claude
 data-generator/generate
 resources/references.json
+src/main/resources/references.json
 .env
 test/results.json
 temporary-results
 misc/participant-removal.sh
+
+target

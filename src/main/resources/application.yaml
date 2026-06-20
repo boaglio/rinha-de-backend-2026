@@ -1,0 +1,19 @@
+spring:
+  application:
+   name: Rinha de back-end 2026
+  threads:
+    virtual:
+      enabled: true
+
+server:
+  port: 9999
+
+springdoc:
+  cache:
+    disabled: true
+  swagger-ui:
+    display-request-duration: true
+    use-root-path: true
+    groups-order: DESC
+    operationsSorter: method
+  version: 1.0
